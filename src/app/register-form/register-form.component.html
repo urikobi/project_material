@@ -1,0 +1,12 @@
+<form>
+  <label>firstName</label> 
+  <input name="firstName" placeholder="firstName" [(ngModel)] = "newUser.firstName">
+  <br><br>
+  <label>lastName</label> 
+  <input  name="lastName" placeholder="lastName" [(ngModel)] = "newUser.lastName">
+  <br><br>
+  <label>age</label> 
+  <input name="age" placeholder="age" [(ngModel)] = "newUser.ageName">
+  </form>
+
+  <p *ngFor="let x of countryList"> {{ x.name}} </p>
